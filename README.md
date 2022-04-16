@@ -10,7 +10,7 @@
 * [Contact](#contact)
 
 ## About The Project
-This project aims to index words of a document named as ‘story.txt’ to hash table according to rules given below. 
+This project aims to index words of a document named as ‘story.txt’ to hash table according to rules given below.
 
 ## Hash Function
 I implemented two different hash functions including polynomial accumulation function and my own hash function. 
@@ -24,9 +24,11 @@ You are expected to implement a collision resolution technique based on open add
 * If we can find the empty bucket, we can insert the new entry with the DIB value in here.
 * If we encounter an entry which has less DIB than the candidate entry, swap them.
 
-## Performance Monitoring
-
+## Console View
 ![alt text](https://github.com/enes-sahinn/Hashtable/blob/master/console_of_program.png)
+
+## Performance Monitoring
+![alt text](https://github.com/enes-sahinn/Hashtable/blob/master/analyse_table.png)
 
 The table shows that increasing of the load factor decreases the number of collisions we achieve. 
 But increases indexing time at the same time. Decreasing of the load factor increases the number of collisions we achieve. 
