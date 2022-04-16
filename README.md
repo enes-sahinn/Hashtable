@@ -3,8 +3,9 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Scenario of the Project](#scenario-of-the-project)
-* [Information About Algorithms](#information-about-algorithms)
+* [Hash Function](#hash-function)
+* [Collision Handling Approach](#collision-handling-approach)
+* [Performance Monitoring](#collision-handling-approach)
 * [Built With](#built-with)
 * [Contact](#contact)
 
@@ -25,7 +26,7 @@ You are expected to implement a collision resolution technique based on open add
 
 ## Performance Monitoring
 
-![alt text](https://github.com/enes-sahinn/Calculator/blob/master/game_screen.png)
+![alt text](https://github.com/enes-sahinn/Hashtable/blob/master/console_of_program.png)
 
 The table shows that increasing of the load factor decreases the number of collisions we achieve. 
 But increases indexing time at the same time. Decreasing of the load factor increases the number of collisions we achieve. 
