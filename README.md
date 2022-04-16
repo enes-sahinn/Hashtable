@@ -10,7 +10,7 @@
 * [Contact](#contact)
 
 ## About The Project
-This project aims to index words of a document named as ‘story.txt’ to hash table according to rules given below.
+This project aims to index words of a document named as ‘story.txt’ to hash table by using different hash function and changing load factor according to rules given below.
 
 ## Hash Function
 I implemented two different hash functions including polynomial accumulation function and my own hash function. 
